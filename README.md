@@ -1,2 +1,2 @@
 # Wh0CaresImABot-Discord
-The Discord Incarnation of Wh0CaresImABot, Mantained by Dr.wh0 cares
+The Discord Incarnation of Wh0CaresImABot, Maintained by Dr.wh0 cares
