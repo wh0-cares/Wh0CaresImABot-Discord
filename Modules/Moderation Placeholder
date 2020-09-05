@@ -1,0 +1,12 @@
+@client.command()
+async def ping(ctx):
+     await ctx.send(f'Hello Yes, what do you want? Its only been {round(client.latency * 1000)}ms')
+    
+@client.command()
+async def clear(ctx,amount=5):
+    await ctx.channel.purge(limit=amount)
+    await ctx.send(f"successfully cleared {amount} messages") 
+
+@client.command()
+async def say(ctx,arg):
+    await ctx.send(f"{arg}")
